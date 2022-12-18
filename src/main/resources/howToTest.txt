@@ -1,0 +1,8 @@
+On Postman click on WebSocket Request
+Select Socket.IO instead of Raw
+ws://192.168.1.1:8085 {Your IP}
+Put params if you have
+Click the Settings tab and select v2 for client
+Click the events tab and write your event name for getting messages. ("get_message" our case), dont forgert check "Listen on connect"
+Write your message class model and don’t forget to add room field (change to JSON)
+Set Acknowlegment  event name "send_message" in our case
